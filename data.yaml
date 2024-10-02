@@ -1,0 +1,5 @@
+train: /home/kaleb/yolov3-only-vehicles/coco-2017/train/images # Assuming you have converted labels in YOLO format
+val: /home/kaleb/yolov3-only-vehicles/coco-2017/validation/images    # Assuming you have converted labels in YOLO format
+
+nc: 4
+names: ['car', 'motorcycle', 'bus', 'truck']
